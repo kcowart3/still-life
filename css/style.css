@@ -186,14 +186,34 @@ body {
     z-index: 0;
 }
 
+
+.disc-drive {
+    background-color: #000000;
+    height: 15px;
+    width: 90px;
+    position: absolute;
+    top: 75%;
+    left: 62%;
+    z-index: 0;
+}
+
 .keyboard {
-    background-color: #BBB9AA;
+    background-color: #b4b2a7;
     height: 88px;
     width: 481px;
     position: absolute;
-    top: 80%;
+    top: 86%;
     left: 36.5%;
     z-index: 0;
+}
+
+.keys {
+    background-color: #817d6e;
+    height: 60px;
+    width: 450px;
+    position: absolute;
+    top: 85%;
+    left: 36.5%;
 }
 
 .sphere {
@@ -206,22 +226,4 @@ body {
     z-index: 0;
     border-radius: 100%;
 
-}
-/*
-.lower-middle {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.logo {
-    background-color: #a8a291;
-    height: 15px;
-    width: 15px;
-}
-
-.disc {
-    background-color: #000000;
-    height: 10px;
-    width: 100px;
 }
